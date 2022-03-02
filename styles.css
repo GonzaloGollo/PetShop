@@ -1,0 +1,166 @@
+h1, h2, h3, h4, h5, h6, p, div, li, span {
+    font-family: helvetica;
+    text-decoration:none;
+}
+
+.barraNegra {
+    display: flex;
+    height: 20px;
+    background-color: black;
+    padding: 7px;  
+    margin-top: 0px;
+    
+}
+
+.textoSobreBarrasizq {
+color: aliceblue;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+font-size: 14px;
+line-height: 14px;
+
+width: 300px;
+height: 12px;
+left: 30px;
+top: 4px;
+position: absolute;
+}
+
+.textoSobreBarrasDer {
+    color: aliceblue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+
+    width: 50px;
+    height: 12px;
+    right: 10px;
+    top: 4px;
+    position: absolute;
+    
+    } 
+
+   #selectorDeIdiomas {
+    color: aliceblue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    width: 50px;
+    height: 12px;
+    right: 100px;
+    top: 4px;
+    position: absolute;
+   }
+
+   .barraNaranja {
+    display: flex;
+    height: 64px;
+    background-color: #F0A83E;
+    padding: 0px;  
+    top: 20px;
+
+   }
+
+   .logo {
+    top: 60px;
+    left: 30px;
+    width: 400px;
+    position: absolute;
+    color: aliceblue;
+    display: inline-flex;
+    float: initial;     
+   }
+
+   .listaHorizontal {
+  
+    right: 30px;
+    width: 400px;
+    position: absolute;
+    color: aliceblue;
+    display: inline-flex;
+    justify-content: space-between;
+    float: initial;      
+   }
+
+.bannerPrincipal {
+    top: 84px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    object-fit:cover; /* object-fit:cover;  resize la imagen hasta que la proporcion se rompa, ahi se recorta*/
+    padding: 0px;
+    margin: 0%;
+    z-index: 9999;
+    width:none;
+   
+    
+}
+
+
+
+.tituloBanner {
+    background-color: #Ffffff;
+    border-radius: 5px;
+    position: absolute;
+    width: 365px;
+    height: 54px;
+    right: 30px;
+    top: 237px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    padding: 13px 10px 0px 10px; 
+
+}
+
+.comentarioBanner {
+text-decoration-line:blink;
+box-sizing: border-box;
+color: #3C2313;
+
+font-size: 16px;
+line-height: 14px;
+
+position: absolute;
+width: 220px;
+height: 50px;
+right: 108px;
+top: 335px;
+}
+
+.botonBanner {
+    background-color: #F0A83E;
+    border-radius: 5px;
+    position: absolute;
+    width: 365px;
+    height: 54px;
+    right: 140px;
+    top: 390px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    padding: 20px 10px 0px 10px; 
+
+
+text-decoration-line:blink;
+box-sizing: border-box;
+color: aliceblue;
+
+font-size: 16px;
+line-height: 14px;
+position: absolute;
+width: 150px;
+height: 54px;
+
+}
