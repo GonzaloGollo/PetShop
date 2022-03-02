@@ -17,12 +17,11 @@ color: aliceblue;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-font-size: 14px;
 line-height: 14px;
 
 width: 300px;
 height: 12px;
-left: 30px;
+left: 90px;
 top: 4px;
 position: absolute;
 }
@@ -66,13 +65,58 @@ position: absolute;
 
    .logo {
     top: 60px;
-    left: 30px;
+    left: 60px;
+    width: 400px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    float: initial;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 20px;     
+   }
+
+   .logoCat {
+    top: 60px;
+    left: 111px;
     width: 400px;
     position: absolute;
     color: aliceblue;
     display: inline-flex;
-    float: initial;     
+    float: initial;
+    color: aliceblue;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 20px;     
    }
+
+   .imagenLogogato {
+    top: 63px;
+    left: 35px;
+    box-sizing: content-box;
+    width: 22px;
+    height: 21px;
+    object-fit:cover; /* object-fit:cover;  resize la imagen hasta que la proporcion se rompa, ahi se recorta*/
+    padding: 0px;
+    margin: 0%;
+    z-index: 9999;
+    position: absolute;
+   }
+
+   .imagenLogo {
+    top: 63px;
+    left: 200px;
+    box-sizing: content-box;
+    width: 22px;
+    height: 21px;
+    object-fit:cover; /* object-fit:cover;  resize la imagen hasta que la proporcion se rompa, ahi se recorta*/
+    padding: 0px;
+    margin: 0%;
+    z-index: 9999;
+    position: absolute;
+   }
+
+
 
    .listaHorizontal {
   
