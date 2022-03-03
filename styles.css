@@ -32,7 +32,6 @@ position: absolute;
     font-weight: normal;
     font-size: 14px;
     line-height: 14px;
-
     width: 50px;
     height: 12px;
     right: 10px;
@@ -183,30 +182,18 @@ top: 335px;
     background-color: #F0A83E;
     border-radius: 5px;
     position: absolute;
-    width: 365px;
-    height: 54px;
+    width: 150px;
+    height: 38px;
     right: 140px;
-    top: 390px;
+    top: 370px;
     
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 25px;
     text-align: center;
     color: #3C2313;
-    padding: 20px 10px 0px 10px; 
-
-
-text-decoration-line:blink;
-box-sizing: border-box;
-color: aliceblue;
-
-font-size: 16px;
-line-height: 14px;
-position: absolute;
-width: 150px;
-height: 54px;
-
+    padding: 10px 10px 0px 10px; 
 }
 
 .imagenPawPrintGrande {
@@ -222,14 +209,25 @@ height: 54px;
     margin: 10px;
 }
 
-.sectionUb {
-top: 1100px;
-position: absolute;
-text-align: center;
+.tituloProducto {
+top: 720px;
+left: calc(50% - 143px/2 + 7.5px);
+top: calc(50% - 29px/2 + 221px);  
+}
+
+
+
+.listaHorizontalCategorias {
+    top: 705px; 
+    width: 800px;
+    color: rgb(31, 31, 31);
+    display: inline-flex;
+    justify-content: space-between;
+    float: initial;  
 }
 
 .vitrinaproductos {
-    top: 1300px;
+    top: 745px;
     margin-left: 95px;
     margin-right: 95px;
     width: 1024px;
@@ -237,6 +235,12 @@ text-align: center;
     color: aliceblue;
     display: inline-flex;
     justify-content: space-between;
-    float: initial;      
+    float: initial;    
+}
+
+.Footer {
+bottom: 5px;
+
+
 
 }
