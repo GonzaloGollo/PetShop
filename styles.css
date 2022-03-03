@@ -208,3 +208,35 @@ width: 150px;
 height: 54px;
 
 }
+
+.imagenPawPrintGrande {
+    /*object-fit:none; /* object-fit:cover;  resize la imagen hasta que la proporcion se rompa, ahi se recorta*/
+    padding: 0px;
+    /*margin-inline: 50%;
+    box-sizing: content-box;*/
+    
+    position: absolute;
+    width: 67px;
+    height: 71px;
+    left: calc(50% - 67px/2 + 0.5px);
+    margin: 10px;
+}
+
+.sectionUb {
+top: 1100px;
+position: absolute;
+text-align: center;
+}
+
+.vitrinaproductos {
+    top: 1300px;
+    margin-left: 95px;
+    margin-right: 95px;
+    width: 1024px;
+    position: absolute;
+    color: aliceblue;
+    display: inline-flex;
+    justify-content: space-between;
+    float: initial;      
+
+}
